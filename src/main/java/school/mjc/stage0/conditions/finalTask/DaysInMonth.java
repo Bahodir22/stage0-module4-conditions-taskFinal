@@ -7,8 +7,8 @@ public class DaysInMonth {
                 case 4,6,9,11: System.out.println("30");break;
                 case 2 :
                     if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
-                        System.out.println("29");}
-                    else System.out.println("28");
+                        System.out.println("29");break;}
+                    else System.out.println("28");break;
                 default:
                     System.out.println("31");break;
             }
