@@ -3,7 +3,7 @@ package school.mjc.stage0.conditions.finalTask;
 public class IntegerDivider {
     public void printCompletelyDivided(int dividend, int divider) {
         if (divider==0){
-            System.out.println("division by zero");
+            System.out.println("/ by zero");
         }
         int b = dividend/divider;
         if (dividend==b*divider){
